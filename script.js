@@ -26,7 +26,7 @@ if (playGame) {
 
 function validGuess(guess) {
     if (isNaN(guess)){
-        alert("Don't play with me you peaice of shit just choose a number")
+        alert("Don't plat with me you peaice of shit just choose a number")
     }
     else if (guess < 1){
         alert("Choose a number bigger then 1 you dumb fuck")
@@ -76,7 +76,7 @@ function endGame() {
     userInput.value = ''
     userInput.setAttribute('disabled', '')
     p.classList.add('button')
-    p.innerHTML = `<h2 id= "newGame">Start new game</h2>`;
+    p.innerHTML = `<button   id= "newGame">Start new game</button>`;
     startOver.appendChild(p)
     playGame = false
     newGame()
