@@ -4,9 +4,10 @@ body{
     align-items: center;
     margin-top: 5%;
     background: #222;
-    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
+    background: #94BDFF;
+    background: radial-gradient(at center, #94BDFF, #5668B5);
 }
 
 input, h1, p{
