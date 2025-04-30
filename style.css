@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    background: #EEAECA;
+    background: #222;
     background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
@@ -18,6 +18,8 @@ input{
     border: black solid;
     border-radius: 10px;
     padding: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
 }
 
 h2{
@@ -26,4 +28,45 @@ h2{
     padding: 10px;
     border-radius: 9px;
     background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#newGame{
+    color: rgb(0, 0, 0);
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#newGame:hover {
+    background-color: #b8b8b8;
+    transform: scale(1.1);
+}
+  
+#newGame:active {
+    transform: scale(0.95);
+}
+
+input:hover {
+    background-color: #b8b8b8;
+    transform: scale(1.1);
+}
+  
+input:active {
+    transform: scale(0.95);
+}
+
+h2:hover {
+    background-color: #b8b8b8;
+    transform: scale(1.1);
+}
+  
+h2:active {
+    transform: scale(0.95);
 }
